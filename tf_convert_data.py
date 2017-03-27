@@ -37,10 +37,10 @@ tf.app.flags.DEFINE_string(
     'dataset_dir', None,
     'Directory where the original dataset is stored.')
 tf.app.flags.DEFINE_string(
-    'output_name', 'pascalvoc',
+    'output_name', 'pascalvoc_2007',
     'Basename used for TFRecords output files.')
 tf.app.flags.DEFINE_string(
-    'output_dir', './',
+    'output_dir', './tfrecords',
     'Output directory where to store TFRecords files.')
 
 
