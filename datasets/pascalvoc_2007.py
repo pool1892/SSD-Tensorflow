@@ -27,10 +27,10 @@ ITEMS_TO_DESCRIPTIONS = {
     'object/label': 'A list of labels, one per each object.',
 }
 SPLITS_TO_SIZES = {
-    'train': 5011,
-    'test': 4952,
+    'train': 2902,
+    'test': 747,
 }
-NUM_CLASSES = 20
+NUM_CLASSES = 4
 
 
 def get_split(split_name, dataset_dir, file_pattern=None, reader=None):
