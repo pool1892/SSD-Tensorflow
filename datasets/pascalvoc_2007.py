@@ -26,11 +26,11 @@ ITEMS_TO_DESCRIPTIONS = {
     'object/bbox': 'A list of bounding boxes, one per each object.',
     'object/label': 'A list of labels, one per each object.',
 }
-SPLITS_TO_SIZES = {
-    'train': 2902,
-    'test': 747,
-}
-NUM_CLASSES = 4
+ SPLITS_TO_SIZES = {
+    'train': 5011,
+    'test': 4952,	
+  }
+NUM_CLASSES = 20
 
 
 def get_split(split_name, dataset_dir, file_pattern=None, reader=None):
