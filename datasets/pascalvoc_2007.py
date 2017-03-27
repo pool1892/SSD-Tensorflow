@@ -26,10 +26,10 @@ ITEMS_TO_DESCRIPTIONS = {
     'object/bbox': 'A list of bounding boxes, one per each object.',
     'object/label': 'A list of labels, one per each object.',
 }
- SPLITS_TO_SIZES = {
+SPLITS_TO_SIZES = {
     'train': 5011,
     'test': 4952,	
-  }
+}
 NUM_CLASSES = 20
 
 
